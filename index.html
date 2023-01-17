@@ -16,7 +16,8 @@
   <!--navbar start-->
   <nav class="navbar navbar-light bg-light">
     <div class="container-fluid">
-      <a class="navbar-brand font-family-Inter"><i class="fa-brands fa-instagram"></i>Instagram</a>
+      <a class="navbar-brand font-family-Inter"><i class="fa-brands fa-instagram mr-1"></i>
+      <span>Instagram</span></a>
       <div class="d-flex">
         <!--modal start-->
         <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal"
@@ -56,14 +57,18 @@
         <!--modal end-->
         <!--dropdown-->
         <div class="dropdown">
-          <button class="btn btn-secondary dropdown-toggle margin-left" type="button" id="dropdownMenuButton1"
-            data-bs-toggle="dropdown" aria-expanded="false">
+          <button class="btn btn-secondary dropdown-toggle margin-left" type="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
             <i class="fa-solid fa-gear"></i>
           </button>
-          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-            <li><a class="Profile" href="#">Profile</a></li>
-            <li><a class="Accessibilty" href="#">Accessibilty</a></li>
-            <li><a class="Privacy and Data" href="#">Privacy and Data</a></li>
+          <ul class="dropdown-menu dropdown-menu-dark">
+            <li><a class="dropdown-item" href="#">Profile</a></li>
+            <li><a class="dropdown-item" href="#">Accessibilty</a></li>
+            <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#">Logout</a></li>
           </ul>
         </div>
         <!--dropdown end-->
